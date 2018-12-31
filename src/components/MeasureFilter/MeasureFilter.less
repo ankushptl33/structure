@@ -1,0 +1,53 @@
+.measure--filter__wrapper {
+    margin-bottom: 20px;
+    position: relative;
+    .measure--filter--bg__wrapper {
+        padding: 9px 11px;
+        border: 1px solid #cccccc;
+        .selected-label__container, 
+        .selected-year__container, 
+        .selected-duration__container, 
+        .selected-fromdate__container, 
+        .selected-todate__container,
+        .selected-location__container,
+        .selected-clinician__container {
+            .selected-label__row{
+                position: relative;
+                &::after {
+                    position: absolute;
+                    right: -12px;
+                    top: 50%;
+                    margin-top: -15px;
+                    height: 30px;
+                    border-right: 1px solid #cccccc;
+                }
+                @media (min-width: 768px) {
+                    &::after {
+                        content: "";
+
+                    }
+                }
+            }
+        }
+    }
+
+    .measure--filter__stackable{
+        padding: 24px;
+        position: absolute;
+        z-index: 1;
+        max-width: 600px;
+        margin-top: -1px;
+        .fig-formcontrol-group {
+            background-color: #e4f0ff;
+        }
+    }
+}
+
+
+.filter-change-btn{
+    padding: 20px;
+}
+.fig-formcontrol{
+    display: flex;
+}
+

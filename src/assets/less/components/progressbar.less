@@ -1,0 +1,48 @@
+
+
+// Performance Bar
+.parent-progress {
+    &.progressbar {
+        .progress_bar_wrapper {
+            [role="progressbar"] {
+                background-color: darken(@gray-lighter, 5%) ;
+            }
+        }
+        &.performance-green{
+            p.percent {
+                color: @progress-success;
+            }
+            .progress_bar_wrapper {
+                [role="progressbar"] {
+                    > div {
+                        background-color: @progress-success;
+                    }
+                }
+            }
+        }
+        &.performance-amber{
+            p.percent {
+                color: @progress-warning;
+            }
+            .progress_bar_wrapper {
+                [role="progressbar"] {
+                    > div {
+                        background-color: @progress-warning;
+                    }
+                }
+            }
+        }
+        &.performance-red{
+            p.percent {
+                color: @progress-danger;
+            }
+            .progress_bar_wrapper {
+                [role="progressbar"] {
+                    > div {
+                        background-color: @progress-danger;
+                    }
+                }
+            }
+        }
+    }
+}

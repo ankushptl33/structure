@@ -1,0 +1,11 @@
+.datatime-flexContainer {
+  display: flex;
+  padding: 0;
+  float: right;
+}
+.datatime-flexContainer .datatime-content {
+  display: contents;
+}
+.datatime-content > span {
+  margin-left: 15px;
+}

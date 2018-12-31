@@ -1,0 +1,83 @@
+// main: ../container.less
+.measure-details--page__wrapper {
+    .measure-details--page-header__wrapper {
+        margin-bottom: 15px;
+        margin-top: 10px;
+        .back-link--page__container {
+            flex: 0 0 24px;
+            font-size: 2.4rem;
+            a.go-back--link {
+                color: #333333;
+                text-decoration: none;
+                cursor: pointer;
+                line-height: 2.2rem;
+            }
+        }
+        .measure-details--header__container{
+            width: 90%;
+            width: ~'calc(100% - 25px)';
+            @media @minimal-desktop-and-above {
+                .measure-details--right-header__container{
+                    padding-right: 20px;
+                }
+            }
+            
+        }
+        
+        .practice-name-header__container {
+            color: @body-text-clr;
+            margin-bottom: 5px;
+            h5 {
+                color: @body-text-clr;
+            }
+        }
+        .practice-select-header__container {
+            margin-bottom: 10px;
+            max-width: 800px;
+        }
+        .practice-measure-performance--stats__container {
+            margin-bottom: 10px;
+            .measures__icons--grid {
+                margin-bottom: 0;
+                margin-top: 0;
+                .measures__data--grid {
+                padding: 0 10px;
+                }
+                .measures__data--label, .measures__data--percent {
+                    padding-left: 0;
+                }
+                .measures__data--icons {
+                    flex: 0 0 105px;
+                }
+            }
+        }
+    }
+
+    .measures__icons--grid{
+        .measures__data--icons{
+            .flexbox;
+            .measures__data--arrow-up{
+                svg {
+                    color: @brand-success;
+                }
+            } 
+            .measures__data--thumbs-up{
+                &.performance-red {
+                    svg {
+                        color:@brand-danger ;
+                    }
+                }
+                &.performance-amber {
+                    svg {
+                        color:@brand-warning;
+                    }
+                }
+                &.performance-green {
+                    svg {
+                        color:@brand-success ;
+                    }
+                }
+            } 
+        }
+    } 
+}

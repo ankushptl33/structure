@@ -1,0 +1,141 @@
+//main: ../../main.less
+
+//Error pages CSS
+.page-error_wrapper{
+    position: relative;
+    .page-error_grid{
+        width: 100%;
+        .page-error_content{
+            position: absolute;
+            margin-left: 160px;
+        .page-error_heading{
+            color: @tag-bg-info;
+            font-size: 8rem;
+            margin-bottom: 25px;
+        }
+        .page-error_message{
+            color: @brand-primary;
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+        .go--back__link {
+            text-decoration: none;
+        }
+        .go--back__link-btn{
+            color: @brand-primary-inverse-color;
+            background: @brand-primary;
+            z-index: 1;
+            .go--back__left-arrow{
+                padding-right: 10px;
+                font-size: 24px;            
+            }
+        }
+      }
+      .page-error_img-grid{
+        width: 100%;
+        top: 0;
+        position: absolute;
+        img{
+            right:0;
+            width: 50%;
+            max-width: 50%;
+            margin-top: 130px;
+            margin-right: 150px;
+            float: right;
+        }
+      }
+    }
+  }
+
+//No result found css
+.no--result_wrapper{
+    max-width: 800px;
+    margin: 50px auto 0;
+    position: relative;
+    .no--result_grid{
+        width: 100%;
+        height: 48vh;
+        .no--result_content{
+            position: relative;
+        .no--result_heading{
+            color: @tag-bg-info;
+            font-size: 10vmin;
+            margin-bottom: 15px;
+        }
+        .no--result_message{
+            color: @brand-primary;
+            font-size: 18px;
+            font-size: 2.5vmin;
+        }
+        /* .go--back__link-btn{
+            color: @brand-primary-inverse-color;
+            background: @brand-primary;
+            .go--back__left-arrow{
+                padding-right: 10px;
+                font-size: 24px;            
+            }
+        } */
+      }
+      .no--result_img-grid{
+        width: 60%;
+        top: 25px;
+        position: absolute;
+        right: 0;
+        height: 300px;
+        height: 39vh;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+      }
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1280px) {
+    .page-error_wrapper{
+        position: relative;
+        .page-error_grid{
+            .page-error_content{
+                margin-left: 100px;
+                margin-top: 130px;
+                .page-error_heading{
+                    font-size: 6rem;
+                }
+                .page-error_message{
+                    font-size: 16px;
+                }
+            }
+            .page-error_img-grid{
+                img{
+                    margin-top: 215px;
+                    margin-right: 100px;
+                    padding-top: 30px;
+                }
+              }
+        }
+    }
+
+    .no--result_wrapper{
+        position: relative;
+        .no--result_grid{
+            .no--result_content{
+                .no--result_message{
+                    font-size: 2.5vmin;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width : 768px) {
+    .no--result_wrapper{
+        position: relative;
+        .no--result_grid{
+            .no--result_content{
+                .no--result_message{
+                    font-size: 4vmin;
+                }
+            }
+        }
+    }
+}

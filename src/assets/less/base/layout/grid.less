@@ -1,0 +1,79 @@
+// main: ../../main.less
+
+
+
+	//== Horizontal grid
+	.fi-grid.fi-grid--hor:not(.fi-grid--desktop):not(.fi-grid--desktop-and-tablet):not(.fi-grid--tablet):not(.fi-grid--tablet-and-mobile):not(.fi-grid--mobile) {
+		display: flex;
+		display: -ms-flexbox;
+		flex-direction: column;
+		-ms-flex-direction: column;
+
+		&.fi-grid--root {
+			flex: 1;
+			-ms-flex: 1 0 0px;
+		}
+
+		> .fi-grid__item {
+			flex: none;
+			-ms-flex: none;
+
+			&.fi-grid__item--fluid {
+				flex: 1 0 auto;
+				-ms-flex: 1 0 auto;
+			}
+		}
+
+		// flex orderings
+	}
+
+	//== Vertical grid
+	.fi-grid.fi-grid--ver-desktop {
+		display: flex;
+		display: -ms-flexbox;
+		flex-direction: row;
+		-ms-flex-direction: row;
+
+		&.fi-grid--root {
+			flex: 1;
+			-ms-flex: 1 0 0px;
+		}
+
+		> .fi-grid__item {
+			flex: 0 0 auto;
+			-ms-flex: 0 0 auto;
+
+			&.fi-grid__item--fluid {
+				flex: 1 auto;  // 1/7/2018 added auto to fix the overflow issue in demo4
+				-ms-flex: 1 auto;
+			}
+		}
+
+	//== Grid item order
+	.fi-grid {
+		// horizontal items aligment
+		&.fi-grid--center {
+			justify-content: center;
+			-ms-flex-pack: center;
+		}
+
+		// vertical item alignment
+		> .fi-grid__item {
+			&.fi-grid__item--top {
+				align-self: flex-start;
+				-ms-flex-align: start;
+			}
+
+			&.fi-grid__item--middle {
+				align-self: center;
+				-ms-flex-align: center;
+				//margin: auto;
+			}
+
+			&.fi-grid__item--bottom {
+				align-self: flex-end;
+				-ms-flex-align: end;
+			}
+		}
+	}
+}

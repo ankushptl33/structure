@@ -1,0 +1,96 @@
+.no-padding {
+  padding: 0px !important;
+}
+.no-margin {
+  margin: 0px !important;
+}
+.no-margin {
+  border: 0px !important;
+}
+.no-box-shadow {
+  box-shadow: none !important;
+}
+.performance__width--90 {
+  width: 85% !important;
+  padding: 15px 0 !important;
+}
+.performance__width--10 {
+  width: 25% !important;
+  padding: 10px 5px 5px 20px !important;
+}
+.font-size-20 {
+  font-size: 18px !important;
+}
+.vertical-align-middle {
+  vertical-align: middle !important;
+}
+.mark-parent {
+  width: 1px !important;
+  border: 0px !important;
+  box-shadow: none !important;
+  margin: 0px !important;
+  background: transparent !important;
+}
+.mark-child {
+  width: 1px !important;
+  height: 10px !important;
+  padding: 0px !important;
+  border: 0px !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+.master-icon {
+  line-height: 0.1 !important;
+  height: 6px !important;
+}
+.sort-up {
+  line-height: 0.5 !important;
+}
+.measure-performance-bar {
+  font-size: 12px !important;
+  vertical-align: middle !important;
+  width: 2px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  border: 0px !important;
+  box-shadow: none !important;
+  position: absolute !important;
+  top: -7px !important;
+  font-weight: bold !important;
+}
+.progress-segment {
+  height: 5px !important;
+  padding: 2px 0px !important;
+  margin: 0px !important;
+}
+.progressbar .bar {
+  border-radius: 0px !important;
+  font-size: 5px !important;
+}
+.progressbar.progress-bar-success .bar {
+  background-color: #6abc6a !important;
+}
+.percent.progress-bar-success {
+  color: #6abc6a !important;
+}
+.cms__benchmark.below--detail {
+  position: absolute !important;
+  top: 16px !important;
+}
+.registry__benchmark.above-detail {
+  position: absolute !important;
+  top: -10px !important;
+}
+.master-icon.sort-up,
+.master-icon.sort-down {
+  font-size: 17px !important;
+}
+.clickable.dataTable__row {
+  padding-bottom: 0.9rem !important;
+  border-top: 1px solid #f1f2f6;
+  padding-top: 1rem !important;
+  align-items: center !important;
+}
+.heart.outline.icon {
+  font-size: 1.2em !important;
+}

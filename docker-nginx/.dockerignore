@@ -1,0 +1,11 @@
+.git
+.vscode
+.DS_Store
+node_modules
+dist
+tests
+.gitattributes
+.gitignore
+README.md
+sm-react-iis
+sm-react-service-fabric

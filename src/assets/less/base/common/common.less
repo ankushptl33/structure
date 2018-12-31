@@ -1,0 +1,78 @@
+// main: ../../main.less
+body {
+  .loader__linear-progress {
+    width: 100%;
+  }
+
+  //Pagination CSS
+  .CustomPagination {
+    display: flex;
+    justify-content: flex-end;
+    .Custom--pagination__ul {
+      padding-top: 16px;
+      padding-right: 0;
+      padding-bottom: 0;
+      .CustomPaginationText {
+        font-weight: normal;
+      }
+      .custom--pagination__li{
+        > span{
+          color: #515151;
+        }
+      }
+      .active{
+        border: 1px solid @brand-primary;
+        border-radius: 50px;
+        background: @brand-primary;
+      }
+      .custom--pagination--back{
+        color: #CFCFCF;
+        &:hover{
+          color: #515151; 
+        }
+      }
+      .custom--pagination--ahead{
+        color: #CFCFCF;
+        &:hover{
+          color: #515151; 
+        }
+      }
+    }
+  }
+
+  //PatientDrillDown CSS
+  .measure--filter__grid-wrapper{
+    overflow: auto;
+    max-height: 100%;
+    .measure--filter__grid{
+      margin-bottom: 10px;
+      .measure--filter__stackable {
+        padding: 0;
+        border: 1px solid #A7A8A9;
+        border-radius: 0;
+        box-shadow: none;
+        .measure--filter{
+          color: #515151;
+          font-weight: 500;
+          padding:5px 10px;
+        }
+        .measure--filter__items{
+          color: #848484;
+          padding:5px 10px;
+        }
+      }
+    }
+    .measure--filter__drill-down-category {
+      display: flex;
+      color: #515151;
+      font-weight: 500;
+      justify-content: flex-start;
+      margin:0 0 10px 5px;
+      padding-bottom: 0;
+    }
+  }
+  div[role="tooltip"] *{
+    font-size: 0.9rem !important;
+
+  }
+}

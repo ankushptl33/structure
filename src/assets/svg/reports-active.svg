@@ -1,0 +1,15 @@
+  <svg width="100%" height="100%" id="_1201559" data-name="1201559" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.555 38.773">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+  </defs>
+  <path id="Path_482" data-name="Path 482" class="cls-1" d="M127.951,121h-1.136v6.815H120v1.136A7.951,7.951,0,1,0,127.951,121Zm0,13.631a5.689,5.689,0,0,1-5.565-4.544h6.7v-6.7a5.68,5.68,0,0,1-1.136,11.245Zm0,0" transform="translate(-110.913 -111.837)"/>
+  <path id="Path_483" data-name="Path 483" class="cls-1" d="M69.087,61H67.951A7.96,7.96,0,0,0,60,68.951v1.136h9.087Zm-2.272,6.816H62.386a5.7,5.7,0,0,1,4.429-4.429Zm0,0" transform="translate(-55.456 -56.381)"/>
+  <path id="Path_484" data-name="Path 484" class="cls-1" d="M0,0V34.229a4.549,4.549,0,0,0,4.544,4.544l24.99-.055c.047.082,0-2.673,0-11.3V0ZM2.272,34.229V2.272h24.99V34.229c0,.827-.059,2.45,0,2.272H4.544A2.274,2.274,0,0,1,2.272,34.229Z"/>
+  <path id="Path_485" data-name="Path 485" class="cls-1" d="M60,362H80.447v2.272H60Zm0,0" transform="translate(-55.456 -334.587)"/>
+  <path id="Path_486" data-name="Path 486" class="cls-1" d="M60,422H80.447v2.272H60Zm0,0" transform="translate(-55.456 -390.043)"/>
+</svg>

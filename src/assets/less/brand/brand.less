@@ -1,0 +1,63 @@
+// main: ../main.less
+
+
+//== General Mode
+.fi-brand {
+	//== Brand hidden mode
+	&.fi-brand--hidden  {
+		display: none;
+	}
+	//== Brand logo
+	.fi-brand__logo {
+		vertical-align: middle;
+		line-height: 0;
+		.fi-brand__logo-wrapper {
+			display: inline-block;
+		}
+	}
+	//== Brand tool
+	.fi-brand__tools {
+		padding-right: 30px;
+		line-height: 0;
+		vertical-align: middle;
+		text-align: right;
+		//== Icon
+		.fi-brand__icon {
+			display: inline-block;
+			line-height: 0;
+			vertical-align: middle;
+			cursor: pointer;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+  @media @desktop {
+    .fi-brand__logo {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: left;
+      line-height: 0;
+      width: 180px;
+      padding: 0 10px;
+      img {
+        height: 50px;
+        max-width: 120px;
+      }
+    }
+	}
+	@media @tablet-and-mobile {
+    .fi-brand__logo {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: left;
+      line-height: 0;
+      width: 180px;
+      padding: 0 10px;
+      img {
+        height: 50px;
+        max-width: 120px;
+      }
+    }
+	}
+}

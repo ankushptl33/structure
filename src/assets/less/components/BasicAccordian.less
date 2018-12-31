@@ -1,0 +1,96 @@
+
+        
+            .fa-heart{
+                font-size: 20px;
+                text-align: center;
+                cursor: pointer;
+                &[data-prefix="fas"]{
+                    font-size: 20px;
+                    color: @brand-primary;
+                }
+            }
+    
+            .fig-BasicAccordion {
+                .expansion-group{
+                    .expansionPanal-header {
+                        background-color:@table-header-bg ;
+                        min-height: 36px;
+                        font-size: 0.95rem;
+                        .ExpansionPanelSummary-header {
+                            opacity: 1;
+                            p {
+                                color: @body-text-clr;
+                            }
+                        }
+                        .ExpansionPanel-tablebody{
+                            box-shadow: none;
+                        }
+                    }
+                    .fig-ac_favourite{
+                        flex:0 0 110px;
+                    }
+                    .fig-ac_displayname {
+                        flex:0 0 95px;
+                        color: gray;
+                    }
+                    .fig-ac_measure {
+
+                    }
+                    .fig-ac_performance{
+
+                    }
+                } 
+                
+                .expansion-group-tablebody{
+                    .fig-ac_favourite{
+                        flex:0 0 110px;
+                        
+                    }
+                    .fig-ac_displayname {
+                        flex:0 0 95px;
+                        color:@gray-light-text;
+                        p {
+                            color:@gray-light-text;
+                        }
+                    }
+                    .fig-ac_measure {
+                        .measure_description__wrapper {
+                            padding-right: 6px;
+                            font-size: 0.9rem;
+                            color: @gray-dark;
+                            .icon_measure{
+                                font-size: 26px;
+                                padding: 0 4px;
+                            }
+                        }
+                    }
+                    .fig-ac_performance{
+
+                    }
+                    .ExpansionPanelSummary-tablebody {
+                        min-height: 80px;
+
+                    }
+                     .ExpansionPanel-tablebody{
+                        box-shadow: none;
+                        &:hover {
+                            background-color: @grid-hover;
+                        }
+                    }
+                    .ExpansionPanel-tablebody {
+                        .ExpansionPanel__open {
+                            .performance-trends {
+                                .performance-trends_table {
+                                    padding: 12px; 
+                                    @media @minimal-desktop-and-above {
+                                        padding:70px 12px 12px; 
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .performance-trends_linbchart {
+                        margin-bottom: 0px;
+                    }
+                }
+            }

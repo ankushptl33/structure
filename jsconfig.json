@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowUnusedLabels": true,
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "lib": ["dom", "es2015", "esnext"],
+        "module": "commonjs",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "build",
+        "paths": {
+            "@/*": ["src/*"]
+        },
+        "removeComments": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2017"
+    },
+    "exclude": ["dist", "__tests__", "wallaby.js", "build", "__mocks__", "dll"]
+}

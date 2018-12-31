@@ -1,0 +1,491 @@
+// main: ../container.less
+
+
+
+body {
+  .login--page {
+    display: table ;
+  }
+}
+ .login--page {
+  display: table ;
+  height: 100%;
+  height: 100vh;
+  width: 100%;
+  padding-bottom: 0px;
+  background: @accent-white;
+  background-image: url("../../../media/img/login-bg.jpg");
+  // background-image: url("../../");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position: bottom center;
+  .login--signin__row {
+    height: 100%;
+    height: ~'calc(100% - 0px)';
+    height: 100vh;
+    .login--page--ver__divider {
+
+        width: 1px;
+        margin:15vh 5px;
+        background-color: @border-color;
+
+    }
+  }
+  .login__wrapper-1 {
+
+    height: 100%;
+    .login__contanier {
+      margin: 0 auto;
+      text-align: left;
+      width: 100%;
+      max-width: 420px;
+      padding: 1rem 1rem 13%;
+      .login__logo {
+        max-width: 350px;
+        margin: 0 auto;
+      }
+      .login__title {
+        padding-top: 1rem;
+        font-weight: 300;
+        font-size: 2.3rem;
+        font-family: @main-font;
+        color: @gray-light-text ;
+        text-transform: uppercase;
+      }
+      
+      h2.login--title__h2 {
+        margin: 15px 0 10px;
+        padding-top: 0.2rem;
+        font-weight: 100;
+        line-height: 2.4rem;
+        font-size: 1.8rem;
+        font-family: @secondary-font;
+        color: @gray-light-text ;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      h4.login--title__h4 {
+        margin: 0 0 10px;
+        padding-top: 0.2rem;
+        font-weight: 100;
+        font-size: 0.95rem;
+        font-family: @secondary-font;
+        color: @gray-light-text ;
+      }
+      h5.login--title__h5 {
+        margin: 0;
+        padding-top: 0.2rem;
+        font-weight: 100;
+        font-size: 0.9rem;
+        font-family: @secondary-font;
+        color: @gray;
+        a {
+          font-family: @secondary-font;
+          color: @gray-light-text ;
+          text-decoration: none;
+        }
+      }
+    }
+
+  }
+  .login__Register-action {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    top: 15px;
+    z-index: 2;
+    .Register__title {
+      font-weight: 400;
+      font-size: 1rem;
+      margin: 0 0 5px;
+    }
+  }
+  .login__wrapper-2 {
+    height: 100%;
+    padding: 12px;
+    .login__contanier {
+      max-width: 430px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      @media (min-width: 1280px){
+        margin: 0 auto 0 15%;
+      }
+      .login__logo {
+        text-align: center;
+        margin: 0 auto;
+      }
+      .login__head {
+        margin-top: 1rem;
+        a {
+          text-decoration: none;
+        }
+        .login__title {
+          font-size: 1.5rem;
+          font-weight: 400;
+          
+        }
+        .login__subtitle {
+          padding-top: 5px;
+          font-weight: 300;
+          font-size: 1.1rem;
+          font-family: @main-font;
+          color: @gray-light ;
+        }
+        .login__desc {
+          margin-top: 1.5rem;
+          text-align: center;
+          font-size: font-get-size(regular);
+        }
+      }
+      .login__form {
+        margin-top: 1.5rem;
+        .login-input--container {
+          margin-top: 20px;
+          .login-input {
+  
+              width: 100%;
+              //border-bottom: 1px solid #ebedf2;
+              padding: .5rem 0;
+              margin-top: 0.1rem;
+
+
+          }
+          &.has-danger .form-control-feedback {
+            font-weight: 400;
+            font-size: 0.85rem;
+          }
+        }
+        .login__form-sub {
+          margin-top: 2rem;
+          .checkbox, .link {
+            font-size: 1rem;
+          }
+          .login__form-sub--forgotPassword {
+            text-align: right;
+          }
+        }
+      }
+      .login__form-action {
+        margin: 3rem 0 3rem 0;
+        text-align: center;
+        flex-basis: 100%;
+        position: relative;
+        .CircularProgressBarLogin {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          margin-top: -15px;
+          margin-left: -14px;
+        }
+        > button {
+          width: 100%;
+          padding: 1.0rem 3rem;
+          .border-radius (3px);
+          /*height: 60px;
+          .box-shadow (0 5px 10px 2px rgba(4,148,250,.19));
+          background-color: @brand-primary;
+          .border-radius (@radius: 60px);
+          display: inline-block;
+          text-align: center;
+          
+          margin-right: 2rem;
+          
+          
+          */
+          &:last-child {
+            margin-right: 0;
+          }
+          &:hover {
+           /* background-color: darken(@brand-primary,10%);
+            .box-shadow (0 5px 10px 2px fade(darken(@brand-primary,10%), 50%));*/
+          }
+        }
+        &.email-sent {
+          > a {
+            width: 50%;
+          }
+        }
+      }
+      .login__account {
+        text-align: center;
+        .login__account-msg, .login__account-link {
+          font-size: 1.1rem;
+          font-weight: 400;
+        }
+      }
+      &.forgot-password__contanier {
+        .login__signin {
+          min-width: 100%;
+          .login__head {
+            .login__title{
+              position: relative;
+              svg {
+                position: absolute;
+                left: -30px;
+              }
+            }
+          }
+        }
+      }
+      &.login-email__contanier {
+        .login__signin {
+          min-width: 100%;
+          .login__head {
+            svg {
+              color:@brand-primary;
+              height: 3rem;
+              width: 3rem;
+            }
+            text-align: center;
+            .login__title{
+              position: relative;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.email-sent {
+    .login__head {
+      text-align: center;
+    }
+  }
+  &.forgot--password {
+    .login__wrapper-2 {
+      .login__contanier {
+        height: 100%;
+      }
+    }
+  }
+  .footer-copyright {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 52px;
+    color: @gray-light-text;
+  }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+.login--page {
+    padding: 2rem 1rem;
+    .login__wrapper-1 {
+      .login__contanier {
+        .login__content {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .login__wrapper-2 {
+    .login__contanier {
+      width: 100%;
+      .login__signup {
+        .login__form{
+          .login__form-action {
+            .ui.button {
+              padding: 1.2rem 3rem;
+              margin-right: 2rem;
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+      .login__forget-password {
+        .login__form{
+          .login__form-action{
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .login--page {
+    .login__wrapper-1 {
+      .login__contanier {
+        .login__title{
+          font-size: 2rem;
+        }
+        .login__content {
+          width: 100%;
+          padding: 2rem 3rem;
+        }
+      }
+    }
+    .login__wrapper-2 {
+      .login__contanier {
+        width: 100%;
+        padding: 0 3rem;
+        .login__forget-password {
+          .login__form {
+            .login__form-action {
+              .ui.button {
+                text-align: center;
+                padding: 1.2rem 2.4rem;
+                margin-right: 2rem;
+                &:last-child {
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .login--page {
+    .login__wrapper-1 {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      .login__contanier {
+        display: block;
+        width: 100%;
+        .login__title {
+          font-size: 1.8rem;
+        }
+      }
+    }
+    .login__wrapper-2 {
+      width: 100%;
+      display: block;
+      .login__contanier {
+        width: 100%;
+        margin: 0 auto;
+        .login__forget-password {
+          .login__form {
+            .login__form-action {
+              .ui.button {
+                text-align: center;
+                padding: 1rem 2rem;
+                margin-right: 0.5rem;
+                &:last-child {
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+body {
+  * {
+    outline: none;
+  }
+}
+.ui.form {
+  input:not([type]),
+  input[type=date],
+  input[type=datetime-local],
+  input[type=email],
+  input[type=file],
+  input[type=number],
+  input[type=password],
+  input[type=search],
+  input[type=tel],
+  input[type=text],
+  input[type=time],
+  input[type=url] {
+    font-family:@main-font;
+  }
+
+
+&.login__form {
+  .field {
+    position: relative;
+    width: 100%;
+
+    &:not(.checkbox) {
+      margin-top: 1rem;
+      margin-bottom: 1.7rem;
+    }
+
+    // Now to position our `label` and style it more as the
+    // native `placeholder`
+    label {
+      color: @gray-light;
+      position: absolute;
+      left:0rem;
+      top: 1.52rem;
+      transition: .2s ease-in;
+      font-weight:400;
+      font-size:1rem;
+      font-family:@main-font;
+      z-index: -1;
+    }
+
+    // Next, `input`, so it's barely visible on any background
+    // excluding checkbox and we'll add textarea
+    input:not([type=checkbox]),
+    //input:placeholder-shown,
+    //input:not(:placeholder-shown),
+    textarea {
+      border: none;
+      transition: .2s ease-in;
+      &:focus ~ label, &:valid ~ label
+      {
+        color: grey;
+        font-size: 90%;
+        top: -1rem;
+        left: 0;
+        z-index: 1;
+      }
+
+      &:focus {
+        border-bottom: 1px solid dodgerblue;
+        outline: none;
+      }
+    }
+  }
+  &.login--register__form{
+    .field {
+      input:not([type=checkbox]){
+         &:valid ~ label {
+          z-index: -1;
+        }
+      }
+      input:placeholder-shown {
+         &:valid ~ labels
+        {
+
+          font-size: 100%;
+          top: 1.52rem;
+          left: 0;
+          z-index: -1;
+        }
+      }
+      input:not([type=checkbox]):not(:placeholder-shown) {
+        &:focus ~ label, ~ label
+        {
+          font-size: 90%;
+          top: -1rem;
+          z-index: 1;
+        }
+      }
+    }
+  }
+}
+
+}

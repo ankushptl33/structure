@@ -1,0 +1,744 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MeasurePerformanceStats /> renders 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MeasurePerformanceStats
+    measureData={
+      Object {
+        "isinverse": false,
+        "isleftfloated": true,
+        "measurePerformance": Array [
+          Object {
+            "data": "78.08",
+            "label": "Achieved Performance",
+          },
+          Object {
+            "data": "45",
+            "label": "CMS Benchmark",
+          },
+          Object {
+            "data": "85",
+            "label": "Registry Average",
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        null,
+        <Grid
+          className="singleGrid"
+        >
+          <Icon
+            as="i"
+            color="green"
+            name="arrow up"
+            size="huge"
+          />
+          <Icon
+            as="i"
+            color="green"
+            name="thumbs up outline"
+            size="huge"
+          />
+        </Grid>,
+        Array [
+          <Grid
+            className="singleGrid"
+          >
+            <Statistic>
+              <p>
+                Achieved Performance
+              </p>
+              <StatisticValue
+                text={true}
+              >
+                78.08
+                %
+              </StatisticValue>
+            </Statistic>
+          </Grid>,
+          <Grid
+            className="singleGrid"
+          >
+            <Statistic>
+              <p>
+                CMS Benchmark
+              </p>
+              <StatisticValue
+                text={true}
+              >
+                45
+                %
+              </StatisticValue>
+            </Statistic>
+          </Grid>,
+          <Grid
+            className="singleGrid"
+          >
+            <Statistic>
+              <p>
+                Registry Average
+              </p>
+              <StatisticValue
+                text={true}
+              >
+                85
+                %
+              </StatisticValue>
+            </Statistic>
+          </Grid>,
+        ],
+      ],
+      "className": "gridCollection",
+    },
+    "ref": null,
+    "rendered": Array [
+      null,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Icon
+              as="i"
+              color="green"
+              name="arrow up"
+              size="huge"
+            />,
+            <Icon
+              as="i"
+              color="green"
+              name="thumbs up outline"
+              size="huge"
+            />,
+          ],
+          "className": "singleGrid",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "i",
+              "color": "green",
+              "name": "arrow up",
+              "size": "huge",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "i",
+              "color": "green",
+              "name": "thumbs up outline",
+              "size": "huge",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "function",
+        "props": Object {
+          "children": <Statistic>
+            <p>
+              Achieved Performance
+            </p>
+            <StatisticValue
+              text={true}
+            >
+              78.08
+              %
+            </StatisticValue>
+          </Statistic>,
+          "className": "singleGrid",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <p>
+                Achieved Performance
+              </p>,
+              <StatisticValue
+                text={true}
+              >
+                78.08
+                %
+              </StatisticValue>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Achieved Performance",
+              },
+              "ref": null,
+              "rendered": "Achieved Performance",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  "78.08",
+                  "%",
+                ],
+                "text": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                "78.08",
+                "%",
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "children": <Statistic>
+            <p>
+              CMS Benchmark
+            </p>
+            <StatisticValue
+              text={true}
+            >
+              45
+              %
+            </StatisticValue>
+          </Statistic>,
+          "className": "singleGrid",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <p>
+                CMS Benchmark
+              </p>,
+              <StatisticValue
+                text={true}
+              >
+                45
+                %
+              </StatisticValue>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "CMS Benchmark",
+              },
+              "ref": null,
+              "rendered": "CMS Benchmark",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  "45",
+                  "%",
+                ],
+                "text": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                "45",
+                "%",
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "children": <Statistic>
+            <p>
+              Registry Average
+            </p>
+            <StatisticValue
+              text={true}
+            >
+              85
+              %
+            </StatisticValue>
+          </Statistic>,
+          "className": "singleGrid",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <p>
+                Registry Average
+              </p>,
+              <StatisticValue
+                text={true}
+              >
+                85
+                %
+              </StatisticValue>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Registry Average",
+              },
+              "ref": null,
+              "rendered": "Registry Average",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  "85",
+                  "%",
+                ],
+                "text": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                "85",
+                "%",
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          null,
+          <Grid
+            className="singleGrid"
+          >
+            <Icon
+              as="i"
+              color="green"
+              name="arrow up"
+              size="huge"
+            />
+            <Icon
+              as="i"
+              color="green"
+              name="thumbs up outline"
+              size="huge"
+            />
+          </Grid>,
+          Array [
+            <Grid
+              className="singleGrid"
+            >
+              <Statistic>
+                <p>
+                  Achieved Performance
+                </p>
+                <StatisticValue
+                  text={true}
+                >
+                  78.08
+                  %
+                </StatisticValue>
+              </Statistic>
+            </Grid>,
+            <Grid
+              className="singleGrid"
+            >
+              <Statistic>
+                <p>
+                  CMS Benchmark
+                </p>
+                <StatisticValue
+                  text={true}
+                >
+                  45
+                  %
+                </StatisticValue>
+              </Statistic>
+            </Grid>,
+            <Grid
+              className="singleGrid"
+            >
+              <Statistic>
+                <p>
+                  Registry Average
+                </p>
+                <StatisticValue
+                  text={true}
+                >
+                  85
+                  %
+                </StatisticValue>
+              </Statistic>
+            </Grid>,
+          ],
+        ],
+        "className": "gridCollection",
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Icon
+                as="i"
+                color="green"
+                name="arrow up"
+                size="huge"
+              />,
+              <Icon
+                as="i"
+                color="green"
+                name="thumbs up outline"
+                size="huge"
+              />,
+            ],
+            "className": "singleGrid",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "as": "i",
+                "color": "green",
+                "name": "arrow up",
+                "size": "huge",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "as": "i",
+                "color": "green",
+                "name": "thumbs up outline",
+                "size": "huge",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "function",
+          "props": Object {
+            "children": <Statistic>
+              <p>
+                Achieved Performance
+              </p>
+              <StatisticValue
+                text={true}
+              >
+                78.08
+                %
+              </StatisticValue>
+            </Statistic>,
+            "className": "singleGrid",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Achieved Performance
+                </p>,
+                <StatisticValue
+                  text={true}
+                >
+                  78.08
+                  %
+                </StatisticValue>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Achieved Performance",
+                },
+                "ref": null,
+                "rendered": "Achieved Performance",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    "78.08",
+                    "%",
+                  ],
+                  "text": true,
+                },
+                "ref": null,
+                "rendered": Array [
+                  "78.08",
+                  "%",
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "children": <Statistic>
+              <p>
+                CMS Benchmark
+              </p>
+              <StatisticValue
+                text={true}
+              >
+                45
+                %
+              </StatisticValue>
+            </Statistic>,
+            "className": "singleGrid",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <p>
+                  CMS Benchmark
+                </p>,
+                <StatisticValue
+                  text={true}
+                >
+                  45
+                  %
+                </StatisticValue>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "CMS Benchmark",
+                },
+                "ref": null,
+                "rendered": "CMS Benchmark",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    "45",
+                    "%",
+                  ],
+                  "text": true,
+                },
+                "ref": null,
+                "rendered": Array [
+                  "45",
+                  "%",
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "children": <Statistic>
+              <p>
+                Registry Average
+              </p>
+              <StatisticValue
+                text={true}
+              >
+                85
+                %
+              </StatisticValue>
+            </Statistic>,
+            "className": "singleGrid",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Registry Average
+                </p>,
+                <StatisticValue
+                  text={true}
+                >
+                  85
+                  %
+                </StatisticValue>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Registry Average",
+                },
+                "ref": null,
+                "rendered": "Registry Average",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    "85",
+                    "%",
+                  ],
+                  "text": true,
+                },
+                "ref": null,
+                "rendered": Array [
+                  "85",
+                  "%",
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

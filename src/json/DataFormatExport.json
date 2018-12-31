@@ -1,0 +1,9 @@
+
+    {
+        "id": "437444",
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "ABC college",
+        "currentStatus": "Active",
+        "paidStatus": "Paid",
+        "agreementStatus": "Active"
+    }

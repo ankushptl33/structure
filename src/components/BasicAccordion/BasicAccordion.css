@@ -1,0 +1,18 @@
+.expansionPanal-header {
+  background-color: transparent;
+  color: red;
+}
+.expansionPanal-header .header-content {
+  background-color: transparent;
+  color: red;
+}
+.expansion-group .expansionPanal-header {
+  background-color: transparent;
+  color: red;
+}
+.header-content .header-column-content {
+  font-size: 15px;
+}
+.expansion-group .expansionPanal-header .ExpansionPanelSummary-header {
+  opacity: 0.6;
+}

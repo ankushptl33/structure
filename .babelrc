@@ -1,0 +1,73 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "@babel/plugin-proposal-function-sent",
+    "@babel/plugin-proposal-export-namespace-from",
+    "@babel/plugin-proposal-numeric-separator",
+    "@babel/plugin-proposal-throw-expressions",
+
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-syntax-import-meta",
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    "@babel/plugin-proposal-json-strings",
+    "@babel/plugin-transform-async-to-generator",
+    "react-loadable/babel",
+    [
+      "import",
+      {
+        "libraryName": "@material-ui/core",
+        "libraryDirectory": "",
+        "camel2DashComponentName": false
+      },
+      "material-core"
+    ],
+    [
+      "import",
+      {
+        "libraryName": "@material-ui/icons",
+        "libraryDirectory": "",
+        "camel2DashComponentName": false
+      },
+      "material-icon"
+    ],
+    [
+      "transform-imports",
+      {
+        "material-ui": {
+          "transform": "@material-ui/core/${member}",
+          "preventFullImport": true
+        }
+      }
+    ],
+    "babel-plugin-lodash",
+    "react-hot-loader/babel",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "@": [
+          "./src"
+        ]
+      }
+    ]
+  ],
+  "env": {
+    "node": {
+      "presets": [["@babel/preset-env"], "@babel/preset-react"],
+      "plugins": [
+        ["@babel/transform-runtime"],
+        ["@babel/plugin-transform-modules-commonjs", { "spec": true }]
+      ]
+    },
+    "test": {
+      "presets": [["@babel/preset-env"], "@babel/preset-react"],
+      "plugins": [
+        ["@babel/transform-runtime"],
+        ["@babel/plugin-transform-modules-commonjs", { "spec": true }]
+      ]
+    }
+  }
+}

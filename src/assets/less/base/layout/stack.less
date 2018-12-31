@@ -1,0 +1,156 @@
+// main: ../../main.less
+
+
+
+.fi-stack {
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	&.fi-stack--hor {
+		> .fi-stack__item {
+	  		display: block;
+
+	  		&.fi-stack__item--fluid {
+				display: block;
+		    	height: auto;
+			}
+		}
+	}
+
+	&.fi-stack--ver {
+		> .fi-stack__item {
+			display: block;
+			height: auto;
+		}
+	}
+}
+
+.fi--build-stack-flex {
+	.fi-stack.fi-stack--flex- {
+		.flexbox();
+		.flexbox-direction(column);
+
+		&.fi-stack--ver {
+			> .fi-stack__item.fi-stack__item--first {
+				display: block;
+				.flexbox-order(1);
+			}
+
+			> .fi-stack__item.fi-stack__item--last {
+				display: block;
+				.flexbox-order(2);
+			}
+		}
+	}
+}
+
+.fi--build-stack {
+	.fi-stack.fi-stack-- {
+		display: table;
+		table-layout: fixed;
+
+		&.fi-stack--inline {
+			width: auto;
+		}
+
+		&.fi-stack--hor {
+			> .fi-stack__item {
+		  		display: table-row;
+		  		vertical-align: top;
+				height: 1px;
+
+				> .fi-stack__demo-item {
+					height: 100%;
+				}
+
+				&.fi-stack__item--fluid {
+			   		height: auto;
+				}
+
+				&.fi-stack__item--fit {
+					line-height: 0;
+				}
+
+				&.fi-stack__item--left {
+					text-align: left;
+				}
+
+				&.fi-stack__item--right {
+					text-align: right;
+				}
+
+				&.fi-stack__item--center {
+					text-align: center;
+				}
+
+				&.fi-stack__item--top {
+					vertical-align: top;
+				}
+
+				&.fi-stack__item--middle {
+					vertical-align: middle;
+				}
+
+				&.fi-stack__item--bottom {
+					vertical-align: bottom;
+				}
+			}
+		}
+
+		&.fi-stack--ver {
+			&.fi-stack--demo {
+				height: 80px;
+			}
+
+			> .fi-stack__item {
+				display: table-cell;
+				vertical-align: top;
+				height: 100%;
+
+				&.fi-stack__item--fluid {
+					width: 100%;
+				}
+
+				&.fi-stack__item--fit {
+					line-height: 0;
+				}
+
+				&.fi-stack__item--left {
+					text-align: left;
+				}
+
+				&.fi-stack__item--right {
+					text-align: right;
+				}
+
+				&.fi-stack__item--center {
+					text-align: center;
+				}
+
+				&.fi-stack__item--top {
+					vertical-align: top;
+				}
+
+				&.fi-stack__item--middle {
+					vertical-align: middle;
+				}
+
+				&.fi-stack__item--bottom {
+					vertical-align: bottom;
+				}
+			}
+		}
+	}
+}
+
+//== Demo
+.fi-stack--demo {
+	&.fi-stack--ver .fi-stack__item,
+	&.fi-stack--hor .fi-stack__demo-item {
+		padding: 10px;
+		border: 1px solid #eee;
+		background: lighten(#eee, 5%);
+		font-weight: bolder;
+	}
+}

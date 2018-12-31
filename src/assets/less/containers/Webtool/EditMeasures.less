@@ -1,0 +1,77 @@
+//main: webtool-main.less
+
+.measures-quetionnaire__ttl-wrapper {
+    padding-top:10px; 
+    padding-bottom:10px; 
+}
+.editmeasure-wrapper{
+    height: calc(100vh - 275px);
+    min-height: 350px;
+
+ .maxHeightSplitter{
+    position: inherit;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    .layout-pane {
+        width: ~'calc(100% -  200px)' !important;
+        border: 1px solid #4696F2;
+        &.layout-pane-primary {
+            overflow-y: auto;
+            max-height: 600px;
+            flex: 0 0 200px;
+            width: 200px;
+            border: none;
+            &::-webkit-scrollbar-thumb {
+                background-color: #a4a4a4;
+                outline: 1px solid #efefef;
+            }
+            &::-webkit-scrollbar {
+                width: 4px;
+            }
+            .edit-measures_menulist {
+                padding: 0;
+                border: 1px solid #ccc;
+                .edit-measures_menulisttext {
+                    padding-left: 0;
+                }
+            }
+            ul.borderPane {
+                padding: 0;
+                .SplitterLayoutMenuContainer {
+                    li {
+                        div, div:first-child {
+                            padding-left: 0px;
+                        }
+                    }
+                }
+            }
+        }
+        .QuestionForm {
+            width: 100%;
+            border-left: 1px solid rgba(0, 0, 0, 0.12);
+            padding: 20px;
+            fieldset {
+                border: none;
+                padding: 0;
+                margin: 0;
+                max-height: 550px;
+                overflow-y: auto;
+                margin-bottom: 10px;
+                &::-webkit-scrollbar {
+                    width: 4px;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background-color: #a4a4a4;
+                    outline: 1px solid #efefef;
+                }
+            }
+        }
+    }
+    .layout-splitter {
+        display: none;
+    }
+    
+    
+    
+}
+
+}

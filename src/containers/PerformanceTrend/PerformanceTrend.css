@@ -1,0 +1,24 @@
+.performance-trends {
+  padding: 0;
+}
+.performance-trends .performance-trends_linbchart {
+  margin-bottom: 60px;
+}
+.performance-trends .performance-trends_table {
+  padding: 0;
+}
+.performance-trends .performance-trends_table .performance-trends_table-parent {
+  padding: 0;
+}
+.performance-trends .performance-trends_table .performance-trends_table-parent > .basicTable__main--block {
+  padding: 0;
+}
+.performance-trends .performance-trends_table .performance-trends_table-parent > .basicTable__main--block > .basicTable {
+  border: 1px solid #cecaca;
+}
+.performance-trends .performance-trends_table .performance-trends_table-parent > .basicTable__main--block > .basicTable > .basicTable__head {
+  padding: 0;
+}
+.performance-trends .performance-trends_table .performance-trends_table-parent > .basicTable__main--block > .basicTable > .basicTable__head > .basicTable__row {
+  background-color: #dfdbdb;
+}

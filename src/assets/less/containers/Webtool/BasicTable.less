@@ -1,0 +1,38 @@
+//main: webtool-main.less
+.tableWrapper{
+    overflow-X: 'auto';
+    .table{
+        min-width: 1020;
+        .table-head{
+            .table-head-row{
+                .table-head-cell{
+                    font-size:16px;
+                    text-align:left;
+                    color:@thead-color;
+                }
+            }
+        }
+        .table-body{
+            .table-body-cell{
+                font-size: 13px;
+                text-align: left;
+            }
+            .chip{
+                margin:8px;
+                height: 27px;
+                font-size: 13px;
+                border: 1px;
+                border-radius:20px;
+            }
+            .chip_high-priority--color{
+                color:@high-priority-color;
+                background:@high-priority-bg ;
+            }
+            .chip_outcome--color{
+                color:@outcome-color;
+                background:@outcome-bg ;
+                padding: auto;
+            }
+        }
+    }
+}

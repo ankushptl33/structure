@@ -1,0 +1,199 @@
+{
+  "navigation": {
+    "ShowMenu": [
+      {
+        "MainMenu": "Dashboard",
+        "idx": 0,
+        "url": "/",
+        "icon": "dashboard icon",
+        "SubMenu": [
+          {
+            "title": "Practice",
+            "icon": "line chart icon",
+            "url": "practice"
+          },
+          {
+            "title": "Clinician",
+            "icon": "doctor icon",
+            "url": "clinician"
+          },
+          {
+            "title": "Location",
+            "icon": "location arrow icon",
+            "url": "location"
+          }
+        ]
+      },
+      {
+        "MainMenu": "Administrator",
+        "idx": 1,
+        "url": "administrator",
+        "icon": "user icon",
+        "SubMenu": [
+          {
+            "title": "Group Management",
+            "icon": "group icon",
+            "url": "group-management"
+          },
+          {
+            "title": "User Management",
+            "icon": "user circle outline icon",
+            "url": "user-management"
+          },
+          {
+            "title": "Authorization",
+            "icon": "lock icon icon",
+            "url": "authorization"
+          },
+          {
+            "title": "Practice Registration",
+            "icon": "registered icon",
+            "url": "practice-registration"
+          },
+          {
+            "title": "Payment",
+            "icon": "payment icon",
+            "url": "payment"
+          },
+          {
+            "title": "Interest Form Report ",
+            "icon": "file text outline icon",
+            "url": "interest-form-report"
+          }
+        ]
+      },
+      {
+        "MainMenu": "MIPS",
+        "idx": 2,
+        "url": "mips",
+        "icon": "file text icon",
+        "SubMenu": [
+          {
+            "title": "Clinician",
+            "icon": "doctor icon",
+            "url": "clinician"
+          },
+          {
+            "title": "Practice",
+            "icon": "line chart icon",
+            "url": "practice"
+          },
+          {
+            "title": "Help",
+            "icon": "help circle outline icon",
+            "url": "help"
+          },
+          {
+            "title": "DRCF Approve",
+            "icon": "checkmark icon",
+            "url": "drcf-approve"
+          }
+        ]
+      },
+      {
+        "MainMenu": "Web Data Entry Tool",
+        "idx": 3,
+        "url": "",
+        "icon": "file text icon",
+        "SubMenu": [
+          {
+            "title": "Web Data Entry",
+            "icon": "database icon",
+            "url": "web-data-entry"
+          },
+          {
+            "title": "Web Tool Upload ",
+            "icon": "upload icon",
+            "url": "web-tool-upload"
+          }
+        ]
+      },
+      {
+        "MainMenu": "Analytics",
+        "idx": 4,
+        "url": "",
+        "icon": "bar chart icon",
+        "SubMenu": [
+          {
+            "title": "My Analytics",
+            "icon": "bar chart icon",
+            "url": "my-analytics"
+          },
+          {
+            "title": "Registry Data Dictionary ",
+            "icon": "ddress book outline icon",
+            "url": "registry-data-dictionary"
+          }
+        ]
+      },
+      {
+        "MainMenu": "Login",
+        "idx": 5,
+        "url": "login",
+        "icon": "log out icon",
+        "SubMenu": []
+      }
+    ]
+  },
+  "sideNavigation": {
+    "mainMenu": [
+      {
+        "menuName": "Quality",
+        "index": 0,
+        "url": "/landingPage/QualityDashboard",
+        "iconUrlActive": "../../assets/svg/Star_blue.svg",
+        "iconUrlInactive": "../../assets/svg/Star_lightBlue.svg",
+        "className": "qualityActiveImage",
+        "submenu": []
+      },
+      {
+        "index": 1,
+        "url": "/landingPage/PracticeCardList",
+        "iconUrlActive": "../../assets/svg/Admin_blue.svg",
+        "iconUrlInactive": "../../assets/svg/Admin_lightBlue.svg",
+        "className": "adminActiveImage",
+        "submenu": []
+      },
+      {
+        "menuName": "Report",
+        "index": 2,
+        "url": "/landingPage/mastertab",
+        "iconUrl": "../../assets/svg/reports.svg",
+        "className": "reportActiveImage",
+        "submenu": []
+      }
+    ]
+  },
+  "pegasusLogo": {
+    "logo": "Figmd",
+    "url": "/landingPage",
+    "iconUrl": "../../assets/svg/figmd_logo.svg"
+  },
+  "userProfileImage": {
+    "UserProfile": "Name",
+    "iconUrl":  "/src/assets/svg/user_profile.png"
+  },
+  "dropDownData": {
+    "options": [
+      {
+        "value": "all",
+        "text": "All"
+      },
+      {
+        "value": "articles",
+        "text": "Articles"
+      },
+      {
+        "value": "products",
+        "text": "Products"
+      }
+    ]
+  },
+  "headerLabelData": {
+    "name": "503709- Web demo Practice"
+  },
+  "FooterCopyRight":{
+    "name": "2018 Registry Name and FIGmd Inc"
+  }
+
+}

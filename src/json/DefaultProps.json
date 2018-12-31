@@ -1,0 +1,1129 @@
+{
+  "PracticeForm": {
+    "practiceId": "Practice ID",
+    "practiceName": "Practice Name",
+    "practicestatus": "Practice Status",
+    "address1": "Address 1",
+    "timezone": "Practice Time Zone",
+    "state": "State",
+    "city": "City",
+    "zip": "Zip",
+    "Save": "Save",
+    "Cancel": "Cancel",
+    "eaddress": "Email Address",
+    "number": "Phone number"
+  },
+  "DataFormatExport": {
+    " type": {
+      "pdf": "PDF",
+      "exl": "EXL",
+      "csv": "CSV"
+    }
+  },
+  "MeasurePerformanceStats": {
+    "measureData": {
+      "measurePerformance": [
+        {
+          "label": "Achieved Performance",
+          "data": "78.08"
+        },
+        {
+          "label": "CMS Benchmark",
+          "data": "45"
+        },
+        {
+          "label": "Registry Average",
+          "data": "85"
+        }
+      ],
+      "isinverse": false,
+      "isleftfloated": true,
+      "configuration": {
+        "iconArrowUp": "['fal', 'arrow-up']",
+        "iconArrowDown": "['fal', 'arrow-down']",
+        "colorArrowUp": "green",
+        "colorArrowDown": "green",
+        "iconThumbsUp": "['fal', 'thumbs-up']",
+        "colorThumbsUp": "green"
+      }
+    }
+  },
+  "BasicTable": {
+    "basicTableDataProp": {
+      "data": [
+        {
+          "quarter": "2018Q1",
+          "ipp": "25478",
+          "denExclusion": "204121",
+          "denException": "2010"
+        },
+        {
+          "quarter": "2017Q4",
+          "ipp": "25478",
+          "denExclusion": "204121",
+          "denException": "2010"
+        },
+        {
+          "quarter": "2017Q3",
+          "ipp": "25478",
+          "denExclusion": "204121",
+          "denException": "2010"
+        }
+      ],
+      "cols": [
+        {
+          "key": "quarter",
+          "label": "QUARTER",
+          "Description": "Quarter"
+        },
+        {
+          "key": "ipp",
+          "label": "IPP",
+          "Description": "Initial Population"
+        },
+        {
+          "key": "denExclusion",
+          "label": "DEN EXCL",
+          "Description": "Denominator Exclusion"
+        },
+        {
+          "key": "denException",
+          "label": "DEN EXPT",
+          "Description": "Denominator Exception"
+        }
+      ],
+      "labels": "IPP - Initial Population,  (DEN EXCL.) - Denominator Exclusion,  (DEN EXPT.) - Denominator Exception"
+    }
+  },
+  "LineChart": {
+    "config": {
+      "type": "serial",
+      "theme": "light",
+      "legend": {
+        "data": [
+          {
+            "title": "Performance",
+            "color": "green",
+            "markerType": "circle"
+          },
+          {
+            "title": "Registry Average",
+            "color": "black",
+            "markerType": "circle"
+          }
+        ],
+        "position": "top",
+        "autoMargins": false,
+        "align": "right"
+      },
+      "dataProvider": [
+        {
+          "quarter": "x-axis label",
+          "MeasureAverage": 30,
+          "RegistryAverage": 85
+        }
+      ],
+      "graphs": [
+        {
+          "id": "performance",
+          "lineColor": "green",
+          "bullet": "round",
+          "bulletBorderAlpha": 1,
+          "bulletColor": "green",
+          "title": "Performance",
+          "valueField": "MeasureAverage",
+          "lineThickness": 1
+        },
+        {
+          "id": "registryaverage",
+          "lineColor": "black",
+          "bullet": "round",
+          "bulletBorderAlpha": 1,
+          "bulletColor": "Black",
+          "title": "Registry Average",
+          "valueField": "RegistryAverage",
+          "lineThickness": 1
+        }
+      ],
+      "categoryField": "DurationName",
+      "AxisBase": {
+        "autoGridCount": false
+      },
+      "valueAxes": [
+        {
+          "strictMinMax": true,
+          "autoGridCount": false,
+          "gridCount": 5,
+          "axisThickness": 0.5,
+          "gridAlpha": 0.2,
+          "axisAlpha": 1,
+          "position": "left",
+          "minimum": 0,
+          "maximum": 100,
+          "baseCoord": 0,
+          "offset": 1,
+          "tickLength": 0
+        }
+      ],
+      "categoryAxis": {
+        "lineAlpha": 1,
+        "startOnAxis": true,
+        "axisColor": "green",
+        "minorGridEnabled": true
+      },
+      "export": {
+        "enabled": true
+      }
+    },
+    "dataProvider": [
+      {
+        "DurationName": "2018Q1",
+        "MeasureAverage": 5.693950177935943,
+        "RegistryAverage": 1.7639200791410024
+      },
+      {
+        "DurationName": "2017Q4",
+        "MeasureAverage": 0,
+        "RegistryAverage": 0
+      },
+      {
+        "DurationName": "2017Q3",
+        "MeasureAverage": 0,
+        "RegistryAverage": 80
+      },
+      {
+        "DurationName": "2017Q2",
+        "MeasureAverage": 0,
+        "RegistryAverage": 0
+      }
+    ]
+  },
+  "Performance": {
+    "performanceData": {
+      "performanceText": "Achieved Performance",
+      "performance": 50,
+      "performancePosition": "left",
+      "benchMark": [
+        {
+          "label": "Registry Average",
+          "data": 80,
+          "position": "below",
+          "colorcode": ""
+        },
+        {
+          "label": "Registry BenchMark",
+          "data": 20,
+          "position": "below",
+          "colorcode": ""
+        },
+        {
+          "label": "CMS Average",
+          "data": 40,
+          "position": "below",
+          "colorcode": ""
+        }
+      ],
+      "difference": 5,
+      "mean": 5,
+      "colorcode": ""
+    }
+  },
+  "DateTimeLabel": {
+    "dates": [
+      {
+        "label": "Date",
+        "format": "DD MMM YYYY HH:mm A",
+        "date": "10 10 2001 04:22:22"
+      }
+    ]
+  },
+  "PracticeContactForm": {
+    "member_id": "Member ID",
+    "valideate_npi": "Validate NPI",
+    "fname": "First Name*",
+    "mname": "Middle Name",
+    "lname": "Last Name*",
+    "uname": "username*",
+    "eaddress": "Email Address",
+    "aladdress": "Alternate Email Address",
+    "number": "Phone Number",
+    "Add": "ADD"
+  },
+  "AddTinForm": {
+    "tnumber": "Tin Number*",
+    "vfrom": "Valid From*",
+    "vto": "Valid To*",
+    "Add": "ADD"
+  },
+  "ClinicianGrid": {
+    "columnDefs": [
+      {
+        "logo": {
+          "type": "image",
+          "header": "LOGO",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "name": {
+          "type": "string",
+          "header": "NAME",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "npi": {
+          "type": "string",
+          "header": "NPI",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "clinicianType": {
+          "type": "image",
+          "header": "CLINICIAN TYPE",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "role": {
+          "type": "string",
+          "header": "ROLE",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "tinDetails": {
+          "type": "string",
+          "header": "TIN DETAILS",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "tinFromDate": {
+          "type": "string",
+          "header": "TIN FROM DATE",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "tinEndDate": {
+          "type": "string",
+          "header": "TIN END DATE",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "phone": {
+          "type": "string",
+          "header": "CONTACT DETAILS",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "mail": {
+          "type": "string",
+          "header": "EMAIL ID",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "editIcon": {
+          "type": "image",
+          "header": "EDIT ICON",
+          "cssClasses": [],
+          "style": {}
+        }
+      }
+    ],
+    "tableData": [
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Test Smith Mary",
+        "npi": "2785656567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "Practice Admin",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "p Smith Mary",
+        "npi": "2345634567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "Registry Admin",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345634567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "Practice Admin",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345634567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345634567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345634567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "Practice Admin",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345634567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "Practice Admin",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345634567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "Registry Admin",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345634567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "Practice Admin",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345634567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345634567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345634567",
+        "clinicianType": "../../../assets/images/logo.jpg",
+        "role": "Practice Admin",
+        "tinDetails": "3456782390",
+        "tinFromDate": "01 Jan 2018",
+        "tinEndDate": "31 Dec 2018",
+        "phone": "617-726-2000",
+        "mail": "marysmith@gmail.com",
+        "editIcon": "../../../assets/images/logo.jpg"
+      }
+    ]
+  },
+  "BasicGrid": {
+    "tableSchema": [
+      {
+        "favourite": {
+          "header": "",
+          "component": {
+            "name": "Icon",
+            "props": [
+              "name"
+            ],
+            "value": {
+              "name": "heart outline",
+              "favoruite": false
+            }
+          },
+          "style": {
+            "width": "10%",
+            "position": "relative",
+            "top": "50%"
+          },
+          "click": "addToFavourite"
+        }
+      },
+      {
+        "id": {
+          "header": "ID",
+          "style": {
+            "width": "5%",
+            "position": "relative",
+            "top": "50%"
+          }
+        }
+      },
+      {
+        "measure": {
+          "header": "MEASURE",
+          "style": {
+            "width": "30%",
+            "position": "relative",
+            "top": "50%"
+          }
+        }
+      },
+      {
+        "performance": {
+          "header": "ACHIEVED PERFORMANCE",
+          "component": {
+            "name": "Performance",
+            "props": [
+              "performanceData"
+            ]
+          },
+          "style": {
+            "width": "40%"
+          }
+        }
+      }
+    ],
+    "tableData": [
+      {
+        "favourite": {
+          "name": "heart outline"
+        },
+        "id": "101",
+        "measure": "Melanomaaaaa: Overutilizzation of imaging",
+        "performance": {
+          "performanceData": {
+            "performanceText": "Achieved Performance",
+            "performance": 61.58,
+            "performancePosition": "left",
+            "benchMark": [
+              {
+                "label": "Registry Average",
+                "data": 50,
+                "position": "above",
+                "colorcode": ""
+              },
+              {
+                "label": "Registry BenchMark",
+                "data": 0,
+                "position": "above",
+                "colorcode": ""
+              },
+              {
+                "label": "CMS Average",
+                "data": 20,
+                "position": "below",
+                "colorcode": ""
+              }
+            ],
+            "difference": 5,
+            "mean": 5,
+            "colorcode": "progress-bar-success"
+          }
+        }
+      }
+    ]
+  },
+  "RightCornerFlag": {
+    "currentStatus": "Active"
+  },
+  "PracticeInformation": {
+    "id": "437102",
+    "logo": "../../../../assets/images/logo.jpg",
+    "paidStatus": "Unpaid",
+    "agreementStatus": "Pending",
+    "name": "UCLA Medical Center",
+    "progressStatus": "Status 5: Production (Onboard)",
+    "address": "1250 16th street santa monica, CA 90404"
+  },
+  "PracticeEntityStats": {
+    "singleCard": {
+      "serviceCount": "173",
+      "tinCount": "28",
+      "locationCount": "170",
+      "ehrCount": "12"
+    }
+  },
+  "PracticeCard": {
+    "singleCard": {
+      "id": "437102",
+      "logo": "../../../assets/images/logo.jpg",
+      "name": "UCLA Medical Center",
+      "currentStatus": "Active",
+      "paidStatus": "Paid",
+      "progressStatus": "Status 5: Production (Onboard)",
+      "address": "1250 16th street santa monica, CA 90404",
+      "cell": "424-259-6000",
+      "mail": "ulcamedicalcenter@gmail.com",
+      "serviceCount": "173",
+      "tinCount": "28",
+      "locationCount": "170",
+      "ehrCount": "12"
+    }
+  },
+  "ContactDetails": {
+    "address": "1250 16th street santa monica, CA 90404",
+    "cell": "424-259-6000",
+    "mail": "ulcamedicalcenter@gmail.com"
+  },
+  "PracticeCardList": {
+    "figmdListViewProp": {
+      "labels": {
+        "id": "Pract. ID.",
+        "logo": "../../../assets/svg/call.svg",
+        "name": "Clinic Name",
+        "currentStatus": "Active/In-active Status",
+        "progressStatus": "Status",
+        "agreementStatus": "Agreement Status",
+        "paidStatus": "Paid/Unpaid Status",
+        "address": "Address",
+        "cell": "Contact No.",
+        "mail": "Email ID.",
+        "serviceCount": "Clinician/s",
+        "tinCount": "TIN/s",
+        "locationCount": "Location/s",
+        "ehrCount": "EHR/s"
+      },
+      "data": [
+        {
+          "id": "437102",
+          "logo": "../../../assets/images/logo.jpg",
+          "name": "UCLA Medical Center",
+          "currentStatus": "Active",
+          "paidStatus": "Paid",
+          "agreementStatus": "Rejected",
+          "progressStatus": "Status 5: Production (Onboard)",
+          "address": "1250 16th street santa monica, CA 90404",
+          "cell": "424-259-6999",
+          "mail": "ulcamedicalr@gmail.com",
+          "serviceCount": "100",
+          "tinCount": "20",
+          "locationCount": "101",
+          "ehrCount": "420"
+        },
+        {
+          "id": "437103",
+          "logo": "../../../assets/images/logo.jpg",
+          "name": "UCLA Hospital",
+          "currentStatus": "Inactive",
+          "paidStatus": "Unpaid",
+          "agreementStatus": "Active",
+          "progressStatus": "Status 7: Testing (Onboard)",
+          "address": "FIGMD baner pashan road",
+          "cell": "424-259-6000",
+          "mail": "ulcamedicalcenter@gmail.com",
+          "serviceCount": "173",
+          "tinCount": "28",
+          "locationCount": "170",
+          "ehrCount": "12"
+        }
+      ]
+    }
+  },
+  "PaymentDetail": {
+    "PaymentDetailsProps": {
+      "Header": "PAYMENTS",
+      "Month": "Aug",
+      "Day": "05",
+      "Year": 2018,
+      "ReceiptNo": "1234rere567890",
+      "TermPlan": "Web",
+      "PaymentMode": "Credit Card",
+      "AmountPaid": "51,208",
+      "AmountPaidStatus": "SUCCESSFUL"
+    }
+  },
+  "PracticeGrid": {
+    "columnDefs": [
+      {
+        "logo": {
+          "type": "image",
+          "header": "LOGO",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "name": {
+          "type": "string",
+          "header": "NAME",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "npi": {
+          "type": "string",
+          "header": "NPI",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "phone": {
+          "type": "string",
+          "header": "CONTACT DETAILS",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "email": {
+          "type": "string",
+          "header": "EMAIL",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "usertype": {
+          "type": "string",
+          "header": "USER TYPE",
+          "cssClasses": [],
+          "style": {}
+        }
+      },
+      {
+        "editicon": {
+          "type": "image",
+          "header": "EDIT ICON",
+          "cssClasses": [],
+          "style": {}
+        }
+      }
+    ],
+    "tableData": [
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345678902",
+        "phone": "617-726-2000",
+        "email": "marysmith@gmail.com",
+        "usertype": "Clinician",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345678902",
+        "phone": "617-726-2000",
+        "email": "marysmith@gmail.com",
+        "usertype": "Clinician",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345678902",
+        "phone": "617-726-2000",
+        "email": "marysmith@gmail.com",
+        "usertype": "Clinician",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345678902",
+        "phone": "617-726-2000",
+        "email": "marysmith@gmail.com",
+        "usertype": "Clinician",
+        "editIcon": "../../../assets/images/logo.jpg"
+      },
+      {
+        "logo": "../../../assets/images/logo.jpg",
+        "name": "Smith Mary",
+        "npi": "2345678902",
+        "phone": "617-726-2000",
+        "email": "marysmith@gmail.com",
+        "usertype": "Clinician",
+        "editIcon": "../../../assets/images/logo.jpg"
+      }
+    ]
+  },
+  "MasterTab": {
+    "masterTabProp": [
+      {
+        "menuItem": "Practice Info ",
+        "cssClass": "",
+        "activeIndex": 1,
+        "defaultActiveIndex": true,
+        "router": "Footer",
+        "iconUrl": "../../assets/svg/practice.svg",
+        "fontIcon": "hospital-alt"
+      },
+      {
+        "menuItem": "Clinicians",
+        "cssClass": "",
+        "activeIndex": 2,
+        "defaultActiveIndex": false,
+        "router": "Footer",
+        "iconUrl": "../../assets/svg/clinician.svg",
+        "fontIcon": "stethoscope"
+      }
+    ]
+  },
+  "ComponentStacker": {
+    "ComponentStackerProps": [
+      "MasterUserProfile",
+      "BasicAccordion"
+    ]
+  },
+  "BasicAccordion": {
+    "basicAccordionProps": {
+      "header": {
+        "location": "LOCATION NAME",
+        "qualified": "QUALIFIED(ALL)",
+        "met": "MET(+)",
+        "notMet": "MET(-)",
+        "denExcl": "DEN EXCL",
+        "numExcl": "NUM EXCL",
+        "performance": "PERFORMANCE"
+      },
+      "accordions": {
+        "type": {
+          "location": "string",
+          "qualified": "number",
+          "met": "number",
+          "notMet": "number",
+          "denExcl": "number",
+          "numExcl": "number",
+          "performance": "Performance"
+        },
+        "data": [
+          {
+            "location": "DEMO LOCATION",
+            "qualified": "960",
+            "met": "96",
+            "notMet": "0",
+            "denExcl": "0",
+            "numExcl": "45",
+            "performance": "0"
+          },
+          {
+            "location": "DEMO LOCATION",
+            "qualified": "96",
+            "met": "96",
+            "notMet": "0",
+            "denExcl": "0",
+            "numExcl": "45",
+            "performance": "0"
+          }
+        ],
+        "content": "Footer"
+      }
+    }
+  },
+  "SearchComponent": "No Default Props Mentioned",
+  "Footer": "No Default Props Mentioned",
+  "LoginForm": "No Default Props Mentioned",
+  "Header": "No Default Props Mentioned",
+  "MeasureFilter": {
+    "measureFilterProp": {
+      "containerName": "practice",
+      "measureSetProp": {
+        "data": [
+          {
+            "id": 1,
+            "name": "Measure Set 1",
+            "inactive": false,
+            "isdefault": false
+          },
+          {
+            "id": 5,
+            "name": "Measure Set 5",
+            "inactive": false,
+            "isdefault": false
+          },
+          {
+            "id": 6,
+            "name": "Measure Set 2",
+            "inactive": false,
+            "isdefault": true
+          }
+        ],
+        "label": "Select Measure set",
+        "selectedLabel": "Selected Measure Set",
+        "selectedId": 6,
+        "iconDefaultEmpty": "M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z",
+        "iconDefaultFilled": "M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z",
+        "defaultDialogTitle": "Default Measure Set",
+        "defaultDialogBody": "Are you sure you want to change default measure set?",
+        "defaultDialogConfirm": "Yes",
+        "defaultDialogCancel": "Cancel",
+        "onDefaultMeasureSetConfirm": "function (){  // console.log(('Default Measureset Set');}"
+      },
+      "clinicianProp": {
+        "data": [
+          {
+            "firstname": "hemant",
+            "lastname": "patil",
+            "id": 2,
+            "istest": false,
+            "tin": 123456,
+            "country": "sdffdg"
+          },
+          {
+            "firstname": "juber",
+            "lastname": "ahmd",
+            "id": 3,
+            "istest": false,
+            "tin": null,
+            "country": null
+          }
+        ],
+        "label": "Select Clinician",
+        "selectedLabel": "Selected Clinician",
+        "selectedId": 2
+      },
+      "locationProp": {
+        "data": [
+          {
+            "name": "hemant",
+            "id": 2,
+            "istest": false,
+            "tin": 123456,
+            "country": "sdffdg"
+          },
+          {
+            "name": "juber",
+            "id": 3,
+            "istest": false,
+            "tin": null,
+            "country": null
+          }
+        ],
+        "label": "Select Location",
+        "selectedLabel": "Selected Location",
+        "selectedId": 2
+      },
+      "yearProp": {
+        "data": [
+          {
+            "id": "1",
+            "name": "2018",
+            "value": "1"
+          },
+          {
+            "id": "2",
+            "name": "2017",
+            "value": "2"
+          },
+          {
+            "id": "3",
+            "name": "2016",
+            "value": "3"
+          }
+        ],
+        "label": "Select Year",
+        "selectedLabel": "Selected Year",
+        "selectedId": 1,
+        "onchangeHandler": "function () { // console.log(('Year DropDown selection change fire'); }"
+      },
+      "durationProp": {
+        "data": [
+          {
+            "name": "Q4 2018",
+            "value": 1,
+            "id": 1,
+            "key": "1",
+            "flag": "QNR"
+          },
+          {
+            "name": "Q3 2018",
+            "value": 2,
+            "id": 2,
+            "key": "2",
+            "flag": "QNR"
+          },
+          {
+            "name": "Q2 2018",
+            "value": 3,
+            "id": 3,
+            "key": "3",
+            "flag": "QNR"
+          },
+          {
+            "name": "Q1 2018",
+            "value": 4,
+            "id": 4,
+            "key": "4",
+            "flag": "QNR"
+          },
+          {
+            "name": "Jan 2018",
+            "value": 5,
+            "id": 5,
+            "key": "5",
+            "flag": "MNR"
+          },
+          {
+            "name": "Feb 2018",
+            "value": 6,
+            "id": 6,
+            "key": "6",
+            "flag": "MNR"
+          },
+          {
+            "name": "Mar 2018",
+            "value": 7,
+            "id": 7,
+            "key": "7",
+            "flag": "MNR"
+          },
+          {
+            "name": "Apr 2018",
+            "value": 8,
+            "id": 8,
+            "key": "8",
+            "flag": "MNR"
+          },
+          {
+            "name": "May 2018",
+            "value": 9,
+            "id": 9,
+            "key": "9",
+            "flag": "MNR"
+          }
+        ],
+        "label": "Select Duration",
+        "selectedLabel": "Selected Duration",
+        "selectedId": 1
+      },
+      "onApplyFilters": "(obj) => {// console.log(('Add Apply filter handling code here');"
+    }
+  },
+  "LoginBranding": {
+    "config": {
+      "xs": 12,
+      "head_variant": "h4",
+      "data_variant": "h5",
+      "justify": "center",
+      "alignItems": "center"
+    },
+    "loginleftProp": {
+      "logo": "LOGO",
+      "path": "../../../assets/media/img/logo/figmd_logo.svg",
+      "first": " For assistance connect at",
+      "info": [
+        "FIGmd-abc@figmd.in",
+        "Registry-xyz@Registry.com",
+        "CAMs-def@camfigmd.com",
+        "FIGmd-abc@figmd.org",
+        "Registry-abc@Registry.org",
+        "CAMs-def@camfigmd.com"
+      ]
+    }
+  },
+  "PasswordInput": {
+    "inputProps": {
+      "name": "Password",
+      "placeholder": "Enter password here",
+      "minLength": 4,
+      "maxLength": 8,
+      "readOnly": false,
+      "disabled": false,
+      "required": false,
+      "showToggle": true
+    }
+  },
+  "PracticeNameHeader": {
+    "dates": {
+      "Created": "08 02 2018",
+      "Updated": "08 02 2018 02:22:22",
+      "Refreshed": "08 02 2018 02:22:22"
+    },
+    "data": {
+      "name": "UCLA Medical Center",
+      "practiceStatus": "Onboard 2.2 Reg",
+      "currentStatus": "Active"
+    }
+  },
+  "MasterNavigationMenu": "No Default Props Mentioned",
+  "BasicModal": {
+    "config": {
+      "variant_title": "h6",
+      "variant_middle": "subtitle1"
+    },
+    "heading": " Web Demo Practice",
+    "outerbuttonText": "Open Modal"
+  }
+}

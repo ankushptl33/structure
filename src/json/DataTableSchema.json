@@ -1,0 +1,344 @@
+{
+    "columnDefs": [
+        {
+            "favourite": {
+                "type": "component",
+                "header": "Icon",
+                "cssClasses": [
+                    "measure-performance"
+                ],
+                "style": {},
+                "component": {
+                    "name": "Icon",
+                    "props": [
+                        "name"
+                    ]
+                }
+            }
+        },
+        {
+            "id": {
+                "type": "string",
+                "header": "ID",
+                "cssClasses": [
+                    "measure-id"
+                ],
+                "style": {}
+            }
+        },
+        {
+            "measure": {
+                "type": "string",
+                "header": "MEASURE",
+                "cssClasses": [
+                    "measure-name"
+                ],
+                "style": {}
+            }
+        },
+        {
+            "performance": {
+                "type": "component",
+                "header": "ACHIEVED PERFORMANCE",
+                "cssClasses": [
+                    "measure-performance"
+                ],
+                "style": {},
+                "component": {
+                    "name": "Performance",
+                    "props": [
+                        "performanceData"
+                    ]
+                }
+            }
+        },
+        {
+            "measureDetails": {
+                "header": "Measure Details s",
+                "type": "component",
+                "data": false,
+                "component": {
+                    "name": "",
+                    "props": [
+                        "text"
+                    ]
+                }
+            }
+        }
+    ],
+    "tableData": [
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "101",
+            "measure": {
+                "measuredescription": "lorem ipsum asghrj jasnsam",
+                "isinverse": 1,
+                "displayname": "xyz"
+            },
+            "performance": {
+                "performanceData": {
+                    "performanceText": "Achieved Performance",
+                    "performance": 73.59,
+                    "performancePosition": "left",
+                    "benchMark": [
+                        {
+                            "label": "Registry Average",
+                            "data": 25,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "Registry BenchMark",
+                            "data": 40,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "CMS Average",
+                            "data": 89,
+                            "position": "below",
+                            "colorcode": ""
+                        }
+                    ],
+                    "colorcode": "progress-bar-success"
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "102",
+            "measure": {
+                "measuredescription": "lorem ipsum asghrj jasnsam",
+                "isinverse": 0,
+                "displayname": "abc"
+            },
+            "performance": {
+                "performanceData": {
+                    "performanceText": "Achieved Performance",
+                    "performance": 73.59,
+                    "performancePosition": "left",
+                    "benchMark": [
+                        {
+                            "label": "Registry Average",
+                            "data": 25,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "Registry BenchMark",
+                            "data": 40,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "CMS Average",
+                            "data": 89,
+                            "position": "below",
+                            "colorcode": ""
+                        }
+                    ],
+                    "colorcode": "progress-bar-success"
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "103",
+            "measure": {
+                "measuredescription": "lorem ipsum asghrj jasnsam",
+                "isinverse": null,
+                "displayname": "xyz"
+            },
+            "performance": {
+                "performanceData": {
+                    "performanceText": "Achieved Performance",
+                    "performance": 73.59,
+                    "performancePosition": "left",
+                    "benchMark": [
+                        {
+                            "label": "Registry Average",
+                            "data": 25,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "Registry BenchMark",
+                            "data": 40,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "CMS Average",
+                            "data": 89,
+                            "position": "below",
+                            "colorcode": ""
+                        }
+                    ],
+                    "colorcode": "progress-bar-success"
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "104",
+            "measure": {
+                "measuredescription": "lorem ipsum asghrj jasnsam",
+                "isinverse": 1,
+                "displayname": "abc"
+            },
+            "performance": {
+                "performanceData": {
+                    "performanceText": "Achieved Performance",
+                    "performance": 73.59,
+                    "performancePosition": "left",
+                    "benchMark": [
+                        {
+                            "label": "Registry Average",
+                            "data": 25,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "Registry BenchMark",
+                            "data": 40,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "CMS Average",
+                            "data": 89,
+                            "position": "below",
+                            "colorcode": ""
+                        }
+                    ],
+                    "colorcode": "progress-bar-success"
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "101",
+            "measure": {
+                "measuredescription": "lorem ipsum asghrj jasnsam",
+                "isinverse": null,
+                "displayname": "xyz"
+            },
+            "performance": {
+                "performanceData": {
+                    "performanceText": "Achieved Performance",
+                    "performance": 73.59,
+                    "performancePosition": "left",
+                    "benchMark": [
+                        {
+                            "label": "Registry Average",
+                            "data": 25,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "Registry BenchMark",
+                            "data": 40,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "CMS Average",
+                            "data": 89,
+                            "position": "below",
+                            "colorcode": ""
+                        }
+                    ],
+                    "colorcode": "progress-bar-success"
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "102",
+            "measure": {
+                "measuredescription": "lorem ipsum asghrj jasnsam",
+                "isinverse": 0,
+                "displayname": "abc"
+            },
+            "performance": {
+                "performanceData": {
+                    "performanceText": "Achieved Performance",
+                    "performance": 73.59,
+                    "performancePosition": "left",
+                    "benchMark": [
+                        {
+                            "label": "Registry Average",
+                            "data": 25,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "Registry BenchMark",
+                            "data": 40,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "CMS Average",
+                            "data": 89,
+                            "position": "below",
+                            "colorcode": ""
+                        }
+                    ],
+                    "colorcode": "progress-bar-success"
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "103",
+            "measure": {
+                "measuredescription": "lorem ipsum asghrj jasnsam",
+                "isinverse": 1,
+                "displayname": "xyz"
+            },
+            "performance": {
+                "performanceData": {
+                    "performanceText": "Achieved Performance",
+                    "performance": 73.59,
+                    "performancePosition": "left",
+                    "benchMark": [
+                        {
+                            "label": "Registry Average",
+                            "data": 25,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "Registry BenchMark",
+                            "data": 40,
+                            "position": "above",
+                            "colorcode": ""
+                        },
+                        {
+                            "label": "CMS Average",
+                            "data": 89,
+                            "position": "below",
+                            "colorcode": ""
+                        }
+                    ],
+                    "colorcode": "progress-bar-success"
+                }
+            }
+        }
+    ]
+}

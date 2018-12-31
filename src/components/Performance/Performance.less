@@ -1,0 +1,142 @@
+.parent-progress {
+    &.progressbar {
+        display: flex;
+        .progress-segment, .measure-performance-bar {
+            box-shadow:none;
+            background-color: transparent;
+        }
+        .performance__width--90{
+            position: relative;
+            width: 85%;
+            width:~'calc(100% - 95px)' ;
+            padding: 20px 0;
+            margin:10px 0;
+            max-width: 100%;
+            margin-right: 20px;
+            margin-left: 0px;
+            flex-basis:~'calc(100% - 105px)';
+        }
+        .performance__width--10 {
+            width: 75px;
+            padding: 10px 0 10px 10px;
+            line-height: 50px;
+            max-width: 75px;
+            flex: 0 0 75px;
+            p {
+                font-size: 1.1rem;
+                line-height: 40px;
+                font-weight: 500;
+            }
+        }
+        .measure-performance-bar{
+            font-size:0;
+            vertical-align:middle;
+            width:2px ;
+            margin:0 0 0 -1px ;
+            padding: 0px ;
+            border:0px ; 
+            box-shadow: none; 
+            position: absolute ;
+            top: 9px;
+            font-weight: bold;
+            z-index: 1;
+        }
+        .mark-child{
+            font-size: 0.85rem;
+            width:30px; 
+            padding:0px ;
+            border:0px; 
+            box-shadow: none ; 
+            background: transparent;
+            text-align:center;
+            &.mark-child__percent {
+                height:12px;
+                line-height: 16px;
+                font-size: .75rem;
+            }
+            &.mark-child__pointer {
+                text-align:center;
+                height: 12px;
+                line-height: 6px;
+                i {
+                    line-height: 6px; 
+                }
+            }
+        }
+        .cms__benchmark{
+            &.below--detail{
+                position: absolute;
+                top: 24px ;
+                color:#888888;
+            }
+        }
+        
+        .registry__benchmark{
+            &.above-detail{
+                position: absolute;
+                top: -4px;
+            }
+        }
+        .mark-parent{
+            width:30px ;  
+            border:0px; 
+            box-shadow: none; 
+            margin:0px 0 0 -15px;
+            background: transparent;
+        }
+        
+        
+        .master-icon{
+            line-height:0.1 ;
+            height:6px ;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.master-icon{
+    line-height:0.1 !important;
+    height:6px !important;
+}
+
+
+ 
+
+
+/*
+.progressbar.progress-bar-success .bar{
+    background-color: #6ABC6A !important;
+}
+.percent.progress-bar-success{
+    color:  #6ABC6A !important;
+}
+.cms__benchmark.below--detail{
+    position: absolute !important;
+    top: 16px !important;
+}
+
+.registry__benchmark.above-detail{
+    position: absolute !important;
+    top: -10px !important;
+}
+.master-icon.sort-up, .master-icon.sort-down  {
+    font-size: 17px !important;
+}
+
+.clickable.dataTable__row{
+    padding-bottom: 0.9rem!important;
+    border-top: 1px solid #f1f2f6;
+    padding-top: 1rem!important;
+        align-items: center !important;
+}
+ .heart.outline.icon {
+    font-size: 1.2em !important;
+}*/

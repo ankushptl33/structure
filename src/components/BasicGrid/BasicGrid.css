@@ -1,0 +1,44 @@
+.grid.dataTable--grid {
+  padding: 15px !important;
+}
+.row.tableHead.tableRow {
+  color: #a2a2a2;
+}
+.viewdetails--link {
+  color: #a2a2a2;
+}
+.fig-favourite {
+  color: #a2a2a2;
+}
+.download.icon {
+  color: #a2a2a2;
+}
+.below--detail .mark-child {
+  color: #a2a2a2;
+}
+.above-detail .mark-child {
+  color: #716b6b;
+}
+.column.fig-favourite {
+  width: 5% !important;
+}
+.column.fig-id {
+  width: 5% !important;
+}
+.column.fig-measure {
+  width: 30% !important;
+}
+.column.fig-performance {
+  width: 45% !important;
+}
+.column.fig-viewdetail {
+  width: 10% !important;
+}
+.column.fig-downloadicon {
+  width: 5% !important;
+}
+.column.fig-favourite,
+.column.fig-viewdetail,
+.column.fig-downloadicon {
+  text-align: center;
+}
